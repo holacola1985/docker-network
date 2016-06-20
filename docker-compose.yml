@@ -1,0 +1,14 @@
+version: "2"
+
+services: 
+  server:
+    build:
+      context: ./server
+      dockerfile: Dockerfile
+    
+  agent:
+    build:
+      context: ./agent
+      dockerfile: Dockerfile
+
+
